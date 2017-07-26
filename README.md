@@ -82,7 +82,7 @@ We will be happy to tell you something more or to provide our help here:
 
 ![](https://latoken.github.io/eth-smart-contracts/readme-images/reddit.gif) [Reddit](https://www.reddit.com/r/LAToken/)
 
-You can also contact us by email: [contact@latoken.com](mailto:contact@latoken.com)
+You can also contact us by email: [ico@latoken.com](mailto:ico@latoken.com)
 
 ## LAToken Executive Summary
 
