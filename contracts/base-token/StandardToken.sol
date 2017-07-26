@@ -1,9 +1,4 @@
 /*
-You should inherit from StandardToken or, for a token like you would want to
-deploy in something like Mist, see HumanStandardToken.sol.
-(This implements ONLY the standard functions and NOTHING else.
-If you deploy this, you won't have anything useful.)
-
 Implements ERC 20 Token standard: https://github.com/ethereum/EIPs/issues/20
 .*/
 pragma solidity ^0.4.8;
@@ -51,7 +46,7 @@ contract StandardToken is Token {
         allowed[msg.sender][_spender] = _value;
         Approval(msg.sender, _spender, _value);
 
-        string signature = "receiveApproval(address,uint256,address,bytes)";
+        string memory signature = "receiveApproval(address,uint256,address,bytes)";
 
         if (!_spender.call(bytes4(bytes32(sha3(signature))), msg.sender, _value, this, _extraData)) {
             throw;

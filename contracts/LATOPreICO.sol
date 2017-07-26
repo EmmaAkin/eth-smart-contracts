@@ -7,7 +7,7 @@ contract LATOPreICO {
     /*
      * External contracts
      */
-    LATPToken public latpToken = LATPToken(0x0);
+    LATPToken public latpToken = LATPToken(0x12826eACF16678A6Ab9772fB0751bca32F1F0F53);
 
     address public founder;
 
@@ -99,7 +99,7 @@ contract LATOPreICO {
         return true;
     }
 
-    function LATOPreICO(address _multisig) {
+    function LATOPreICO() {
         founder = msg.sender;
     }
 
