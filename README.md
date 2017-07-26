@@ -1,5 +1,7 @@
 # LAToken Ethereum Smart Contracts
 
+![](https://latoken.github.io/eth-smart-contracts/readme-images/explainer.png)
+
 ## Contents
 
 + [LAToken](#latoken)
