@@ -4,8 +4,8 @@
 
 ## Contents
 
-+ [LAToken](#latoken)
-+ [Smart contracts](#smart-contacts)
++ [LAToken](#latoken---httpslatokencom)
++ [Smart contracts](#smart-contracts)
 + [Getting started](#getting-started)
 + [Installation](#installation)
 + [Testing](#testing)
